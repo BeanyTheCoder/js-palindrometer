@@ -10,12 +10,13 @@ function isPalindrome(string) {
   // remove any characters thats not a letter or number
   const pureString = string.toLowerCase().replace(/[^a-zA-Z0-9]/g, "");
 
-  let reversedString = ""
+  // reverse the pureString by spliting it into an array, reversing that array, and joining everything back
+  const reversedString = pureString.split("").reverse().join("");
 
-  return reversedString
+  return pureString === reversedString;
 }
 
 // Test cases
-console.log(isPalindrome("racecar")); // Output: true
-console.log(isPalindrome("hello")); // Output: false
-console.log(isPalindrome("Madam, am Adam.")); // Output: true
+console.log(isPalindrome("kayak")); // Output: true
+console.log(isPalindrome("cakes")); // Output: false
+console.log(isPalindrome("Mr. Owl ate my metal worm.")); // Output: true
