@@ -2,6 +2,13 @@
 
 Simple palindrome checker(palindro*meter*) made using JavaScript
 
+A palindrome is defined as a word, phrase or any other sequence of characters that reads the same forwards and backwards. Eg:
+
+- racecar - ✅ palindrome
+- kayak - ✅ palindrome
+- was it a car or a cat I saw? - ✅ palindrome
+- beans - ❌ not palindrome
+
 ## Features ✨
 
 - There are two implementations in this repo:
