@@ -22,7 +22,7 @@ Simple palindrome checker(palindro*meter*) made using JavaScript
 
   - File: [\_stack.mjs](./_stack.mjs)
   
-    This is to provide the code for `stackImp.mjs`. However, one could simply copy the code from this file to the `stackImp.mjs` if importing are not an option
+    This is to provide the code for `stackImp.mjs`. However, one could simply copy the code from this file to the `stackImp.mjs` if importing is not an option
 
 ## Installation & Usage 🛠️
 
